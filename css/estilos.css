@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Mohave', sans-serif;
+	transition: all 200ms ease-in-out;
 }
  
 /*CSS HEADER*/
@@ -86,7 +87,7 @@
 #header .nav a:hover{
 	color: #ccc;
 	background-color: #fff;
-	border-radius: 10%;
+	border-radius: 5px;
 	
 }
 /*CSS FOOTER*/
@@ -210,7 +211,13 @@ img{
 .hero p{
 	color: #fff;
 	padding-top:20rem;
-	font-size: 50px
+	font-size: 50px;
+	font-weight:700;
+	animation-name:familia;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2s;
+	animation-delay: 0;
 }
 
 .contenedor.pgHome.propuestaValor .item.contenedor.contenedorItemX3{
@@ -252,7 +259,8 @@ img{
 	.hero p{
 	color: #fff;
 	padding-top:20rem;
-	font-size: 40px
+	font-size: 40px;
+	
 	}
 	
 	.subItems.itemX3.icono{
@@ -275,11 +283,24 @@ img{
 	}
 }
 
-/*CSS HOME TRANSFORMACIONES*/
+/*CSS HOME TRANSFORMACIONES y ANIMACION*/
 .contenedor.pgHome.viajes .item.contenedor.contenedorItemX3 .itemX3:hover{
 	font-size: 28px;
 	font-weight: 700;
 	transform: translate(0px, -10px);
+}
+
+@keyframes familia{
+	0%{
+
+	}
+	50%{
+		font-size: 60px;
+
+	}
+	100%{
+
+	}
 }
 
 
@@ -436,10 +457,14 @@ img{
 /*CSS CONTACTO TRANSFORMACIONES y FOCUS*/
 
 .pgContacto.formulario input:focus{
-	background-color: #ddd;
+	background-color: #000;
+	color: #fff;
 }
 
 .item.contenedor.formulario button.subItems:hover{
 	background-color: #7e5aff;
+	font-weight: 700;
+	color: #000;
+
 }
 
