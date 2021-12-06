@@ -4,58 +4,92 @@
 	<title>Tio Moto</title>
 	<meta charset="utf-8">
 	<meta name=viewpoint content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos2.css">
 </head>
-<body>
+
+
+<body> 
   
-	<div id="header">	
-		<ul class="nav">
-			<li class="logo"><img src="Desafio_1_Imagenes/Icono_logo.jpg" width="50" height="50"></li><!--
-			--><li id="active" class="home"><a href="index.html">Home</a></li><!--
-			--><li class="viajes"><a href="viajes.html">Viajes</a></li><!--
-			--><li class="nosotros"><a class="active" href="nosotros.html">Nosotros</a></li><!--
-			--><li class="faq"><a href="faq.html">FAQ</a></li><!--
-			--><li class="contacto"><a href="contacto.html">Contacto</a></li>
-		</ul>	
+	 <div class="container-xl bg-transparent text-white fixed-top">
+		
+			<nav class="navbar navbar-expand-md navbar-light bg-light rounded-bottom">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="index.html"><img src="Desafio_1_Imagenes/Icono_logo.jpg" alt="logo" height="50px" width="50px"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNav">
+			      <ul class="navbar-nav">
+			        <li class="nav-item">
+			          <a class="nav-link"  href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link"  href="viajes.html">Viajes</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="faq.html">FAQ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="contacto.html">Contacto</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+
 	</div>
 
-<div class="contenido pg pgNosotros">
 
-	<div class="contenedor uno presentacion pgNosotros parrafo">
-		<p>Somos Mauro y Gaston, dos primos apasionados por las motos y los viajes que hemos viajado y vivido  Australia y Nueva Zelanda donde hemos generado amistades de todo el mundo.</p>
-		<p>Hoy queremos recibir y compartir con el mundo las maravillas que nuestro pais tiene para ofrecer, pero queremos hacerlo en moto.</p>
+<div class="contenido pg pgNosotros mt-5 pt-1">
+
+	<div class="container-xl mt-5 pt-5 bg-secondary">
+		<p class="text-center text-wrap fs-2 p-0 p-md-2">Somos Mauro y Gaston, dos primos apasionados por las motos y los viajes que hemos viajado y vivido  Australia y Nueva Zelanda donde hemos generado amistades de todo el mundo.</p>
+		<p class="text-center text-wrap fs-2 p-0 p-md-2">Hoy queremos recibir y compartir con el mundo las maravillas que nuestro pais tiene para ofrecer, pero queremos hacerlo en moto.</p>
 	</div>
 
 
 
-	<div class="contenedor perfiles pgNosotros">
-		<div class="item perfiles itemX2 parrafo">
-			<img src="Desafio_1_Imagenes/nosotros_mauro.jpg">
-			<p class="titulo">Mauro</p>
-			<p>Me gustan las motos trail, el enduro, y acampar en la montaña. Me encargare de ponerle mucha aventura a tu viajes</p>
-		</div>
-		<div class="item perfiles itemX2 parrafo">
-			<img src="Desafio_1_Imagenes/nosotros_gaston.jpg">
-			<p class="titulo">Gaston</p>
-			<p>Me gustan las motos Harley, rutas de asfalto y conocer pequeños pueblos. Me encargare de ponerle confort a tu viajes.</p>
+	<div class="container-xl mt-5 pt-5 bg-secondary">
+		<div class="row container-xl justify-content-center">
+			<div class="container-xl col-12 col-sm-5 bg-light m-3 border border-dark img-fluid">
+				<img class="img-fluid" src="Desafio_1_Imagenes/nosotros_mauro.jpg">
+				<p class="text-center text-wrap fs-3 p-0 p-md-2">Mauro</p>
+				<p class="text-center text-wrap fs-4 p-0 p-md-2">Me gustan las motos trail, el enduro, y acampar en la montaña. Me encargare de ponerle mucha aventura a tu viajes</p>
+			</div>
+			<div class="container-xl col-12 col-sm-5 bg-light m-3 border border-dark ">
+				<img class="img-fluid" src="Desafio_1_Imagenes/nosotros_gaston.jpg">
+				<p class="text-center text-wrap fs-3 p-0 p-md-2">Gaston</p>
+				<p class="text-center text-wrap fs-4 p-0 p-md-2">Me gustan las motos Harley, rutas de asfalto y conocer pequeños pueblos. Me encargare de ponerle confort a tu viajes.</p>
+			</div>
 		</div>
 	</div>
 
 </div>
 
-	<div id="footer">
-		<div class="copy">
+	<div class="row container-fluid bg-light mt-3">
+		<div class="col-3">
 			© 2021 Tio Moto
 		</div>
-		<ul>
-			<li class="iconoFooter" id="footer_insta">
-				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img src="Desafio_1_Imagenes/Icono_insta.png"></a></li><!--
-		 --><li class="iconoFooter" id="footer_face">		
-		 		<a href="https://www.facebook.com/T%C3%ADo-Moto-105678948466536" target="_blank"><img src="Desafio_1_Imagenes/Icono_facebook.png"></a></li><!--
-		 --><li class="iconoFooter" id="footer_Whatsaap">	
-		 		<a href="https://www.whatsapp.com" target="_blank"><img src="Desafio_1_Imagenes/Icono_whatsapp.png" width="70" height="50"></a></li>
-		</ul>
+		<div class="col-9 row">
+			<div class="col-4">
+				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img src="Desafio_1_Imagenes/Icono_insta.png"></a></li>
+			</div>
+			<div class="col-4">
+				<a href="https://www.facebook.com/T%C3%ADo-Moto-105678948466536" target="_blank"><img src="Desafio_1_Imagenes/Icono_facebook.png"></a>
+			</div>
+			<div class="col-4">
+				<a href="https://www.whatsapp.com" target="_blank"><img src="Desafio_1_Imagenes/Icono_whatsapp.png" width="70" height="50"></a>
+			</div>
+		</div>
 	</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

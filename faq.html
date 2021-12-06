@@ -4,67 +4,102 @@
 	<title>Tio Moto</title>
 	<meta charset="utf-8">
 	<meta name=viewpoint content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos2.css">
 </head>
+
+
 <body> 
-  
-	<div id="header">	
-		<ul class="nav">
-			<li class="logo"><img src="Desafio_1_Imagenes/Icono_logo.jpg" width="50" height="50"></li><!--
-			--><li id="active" class="home"><a href="index.html">Home</a></li><!--
-			--><li class="viajes"><a href="viajes.html">Viajes</a></li><!--
-			--><li class="nosotros"><a href="nosotros.html">Nosotros</a></li><!--
-			--><li class="faq"><a class="active" href="faq.html">FAQ</a></li><!--
-			--><li class="contacto"><a href="contacto.html">Contacto</a></li>
-		</ul>	
+   
+	 <div class="container-xl bg-transparent text-white fixed-top">
+		
+			<nav class="navbar navbar-expand-md navbar-light bg-light rounded-bottom">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="index.html"><img src="Desafio_1_Imagenes/Icono_logo.jpg" alt="logo" height="50px" width="50px"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNav">
+			      <ul class="navbar-nav">
+			        <li class="nav-item">
+			          <a class="nav-link"  href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="viajes.html">Viajes</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="nosotros.html">Nosotros</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="contacto.html">Contacto</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+
 	</div>
+
 
 
 <div class="contenido pg pgFaq">
-	<div class="contenedor uno pgFaq parrafo">
-		<p>Tienes algunas dudas?</p>
-		<p>Revisa las preguntas mas frecuentes.</p>
+
+
+	<div class="container-xl mt-5 pt-5 bg-secondary">
+		<p class="text-center text-wrap fs-2 p-0 p-md-2" >Tienes algunas dudas?</p>
+		<p class="text-center text-wrap fs-2 p-0 p-md-2">Revisa las preguntas mas frecuentes.</p>
 	</div>
 
-	<dir class="contenedor pgFaq seccionPreguntas">
-		<div class="item seccionPreguntas">
-			<p class="parrafo pregunta">Cual es el precio de los viajes?</p>
-			<p class="parrafo respuesta ">El precio de los viajes dependera de cada destino, la epoca del año y otros factores. Te invitamos a que nos <a href="contacto.html">contactes</a>  para obtener los precios de los proximos viajes! </p>
+	<dir class="container-xl mt-5 p-1 p-md-5 bg-secondary">
+		<div class="bg-light m-2 my-4 border border-dark">
+			<p class="text-center text-wrap fs-2 p-0 p-md-2">Cual es el precio de los viajes?</p>
+			<p class="text-center text-wrap fs-3 p-0 px-md-5">El precio de los viajes dependera de cada destino, la epoca del año y otros factores. Te invitamos a que nos <a href="contacto.html">contactes</a>  para obtener los precios de los proximos viajes! </p>
 		</div>	
 
-		<div class="item seccionPreguntas">
-			<p class="parrafo pregunta">Que necesito para poder hacer un viaje?</p>
-			<p class="parrafo respuesta ">Necesitaras contar con registro valido para manejar sobre el territorio argentino <a href="https://cfran.cancilleria.gob.ar/es/content/conducir-en-la-argentina" target="_blank">(mas info)</a>. 
+		<div class="bg-light m-2 my-4 border border-dark">
+			<p class="text-center text-wrap fs-2 p-0 p-md-2">Que necesito para poder hacer un viaje?</p>
+			<p class="text-center text-wrap fs-3 p-0 px-md-5">Necesitaras contar con registro valido para manejar sobre el territorio argentino <a href="https://cfran.cancilleria.gob.ar/es/content/conducir-en-la-argentina" target="_blank">(mas info)</a>. 
 			Luego necesitaras realizar un chequeo de aptitud fisca y medica.. nuestras rutas te exigiran al maximo.</p> 
 		</div>	
 
-		<div class="item seccionPreguntas">
-			<p class="parrafo pregunta">Cuantos km manejaremos cada dia?</p>
-			<p class="parrafo respuesta ">Cada dia sera diferente, hay dias que manejaremos mas de 500km y otros que solo haremos 80km. Incluso habra dias de descanso para recorrer algun pueblo. Cuentanos que destino tienes te gustaria hacer para poder enviarte el travel planing de los proximos vijes.</p>
+		<div class="bg-light m-2 my-4 border border-dark">
+			<p class="text-center text-wrap fs-2 p-0 p-md-2">Cuantos km manejaremos cada dia?</p>
+			<p class="text-center text-wrap fs-3 p-0 px-md-5">Cada dia sera diferente, hay dias que manejaremos mas de 500km y otros que solo haremos 80km. Incluso habra dias de descanso para recorrer algun pueblo. Cuentanos que destino tienes te gustaria hacer para poder enviarte el travel planing de los proximos vijes.</p>
 		</div>	
 
-		<div class="item seccionPreguntas">
-			<p class="parrafo pregunta">Si no tengo equipo de camping como hago?</p>
-			<p class="parrafo respuesta ">Nosotros podremos proveerte de todos los accesorios necesarios para tu viaje. Tu podrias venir solo con tu ropa. Ofrecemos alquiler de equipos de camping completos. Tambien encuanto al alquiler de la moto la misma la podras alquilar completa con las alforjas o sin ella. Te ofrecemos la mejor flexibilidad para adaptarnos a tu presupuesto.</p>
+		<div class="bg-light m-2 my-4 border border-dark">
+			<p class="text-center text-wrap fs-2 p-0 p-md-2">Si no tengo equipo de camping como hago?</p>
+			<p class="text-center text-wrap fs-3 p-0 px-md-5">Nosotros podremos proveerte de todos los accesorios necesarios para tu viaje. Tu podrias venir solo con tu ropa. Ofrecemos alquiler de equipos de camping completos. Tambien encuanto al alquiler de la moto la misma la podras alquilar completa con las alforjas o sin ella. Te ofrecemos la mejor flexibilidad para adaptarnos a tu presupuesto.</p>
 		</div>	
 	</dir>
 
 </div>
 
 
-	<div id="footer">
-		<div class="copy">
+	<div class="row container-fluid bg-light mt-3">
+		<div class="col-3">
 			© 2021 Tio Moto
 		</div>
-		<ul>
-			<li class="iconoFooter" id="footer_insta">
-				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img src="Desafio_1_Imagenes/Icono_insta.png"></a></li><!--
-		 --><li class="iconoFooter" id="footer_face">		
-		 		<a href="https://www.facebook.com/T%C3%ADo-Moto-105678948466536" target="_blank"><img src="Desafio_1_Imagenes/Icono_facebook.png"></a></li><!--
-		 --><li class="iconoFooter" id="footer_Whatsaap">	
-		 		<a href="https://www.whatsapp.com" target="_blank"><img src="Desafio_1_Imagenes/Icono_whatsapp.png" width="70" height="50"></a></li>
-		</ul>
+		<div class="col-9 row">
+			<div class="col-4">
+				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img src="Desafio_1_Imagenes/Icono_insta.png"></a></li>
+			</div>
+			<div class="col-4">
+				<a href="https://www.facebook.com/T%C3%ADo-Moto-105678948466536" target="_blank"><img src="Desafio_1_Imagenes/Icono_facebook.png"></a>
+			</div>
+			<div class="col-4">
+				<a href="https://www.whatsapp.com" target="_blank"><img src="Desafio_1_Imagenes/Icono_whatsapp.png" width="70" height="50"></a>
+			</div>
+		</div>
 	</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

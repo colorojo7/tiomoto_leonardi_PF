@@ -1,0 +1,45 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;700&display=swap');
+
+*{
+	font-family: 'Mohave', sans-serif;
+}
+ 
+
+#banner{
+	height: 100vh;
+	width: 100vw;
+	background-image: url(../Desafio_1_Imagenes/Banner_home.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+#banner p{
+	color: #fff;
+	padding-top:20rem;
+	font-size: 30px;
+	font-weight:700;
+	animation-name:familia;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-duration: 5s;
+	animation-delay: 0;
+}
+@keyframes familia{
+	0%{
+
+	}
+	50%{
+		font-size: 40px;
+
+	}
+	100%{
+
+	}
+}
+
+.pgContacto iframe{
+	max-height: 300px;
+}

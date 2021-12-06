@@ -4,43 +4,70 @@
 	<title>Tio Moto</title>
 	<meta charset="utf-8">
 	<meta name=viewpoint content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos2.css">
 </head>
+
+
 <body>
 
 
-  
+  <div class="container-xl bg-transparent text-white fixed-top">
+		
+			<nav class="navbar navbar-expand-md navbar-light bg-light rounded-bottom">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="index.html"><img src="Desafio_1_Imagenes/Icono_logo.jpg" alt="logo" height="50px" width="50px"></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNav">
+			      <ul class="navbar-nav">
+			        <li class="nav-item">
+			          <a class="nav-link"  href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="viajes.html">Viajes</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="nosotros.html">Nosotros</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="faq.html">FAQ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="contacto.html">Contacto</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
 
-	<div id="header">	
-		<ul class="nav">
-			<li class="logo"><img src="Desafio_1_Imagenes/Icono_logo.jpg" width="50" height="50"></li><!--
-			--><li id="active" class="home"><a  href="index.html">Home</a></li><!--
-			--><li class="viajes"><a class="active" href="viajes.html">Viajes</a></li><!--
-			--><li class="nosotros"><a href="nosotros.html">Nosotros</a></li><!--
-			--><li class="faq"><a href="faq.html">FAQ</a></li><!--
-			--><li class="contacto"><a href="contacto.html">Contacto</a></li>
-		</ul>	
 	</div>
 
+	
 
-<div class="contenido pg pgViajes">
+
+<div class="contenido pg pgViajes mt-5 pt-1">
 
 	
-	<div class="contenedor uno descripcion pgViajes">
-		<div class="item parrafo">
-			<p>Todos nuestros viajes son guiados, y podras hacerlos con tu propia moto a alquilar una para la ocación.</p>
-			<p>Ofrecemos 3 destinos en diferentes.</p>
-			<p>Cual te gustaria recorrer primero?  </p>
-		</div>
-		<div class="item contenedor titulos">
-			<div class="subItems itemX3">
-				<a href="#viajeNoa"><p class="subItems titulo">Experiencia NOA</p></a> 
+	<div class="container-xl mt-5 pt-3 bg-secondary">
+		<div class="text-center text-wrap fs-2 p-0 p-md-2">
+			<div class="text-center text-wrap fs-3 p-0 p-md-2">
+				<p>Todos nuestros viajes son guiados, y podras hacerlos con tu propia moto a alquilar una para la ocación.</p>
+				<p>Ofrecemos 3 destinos en diferentes.</p>
+				<p>Cual te gustaria recorrer primero?  </p>
 			</div>
-			<div class="subItems itemX3">
-				<a href="#viajeCuyo"><p class="subItems titulo">Experiencia Cuyo</p></a> 
-			</div>
-			<div class="subItems itemX3">
-				<a href="#viajePatagonia"><p class="subItems titulo">Experiencia Patagonia</p></a> 
+			<div class="row container-xl justify-content-center">
+				<div class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark">
+					<a href="#viajeNoa"><p class="text-center">Experiencia NOA</p></a> 
+				</div>
+				<div class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark">
+					<a href="#viajeCuyo"><p class="text-center">Experiencia Cuyo</p></a> 
+				</div>
+				<div class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark">
+					<a href="#viajePatagonia"><p class="text-center">Experiencia Patagonia</p></a> 
+				</div>
 			</div>
 		</div>
 	</div>
@@ -49,62 +76,72 @@
 
 	<div class="contenedor viajes pgViajes">
 
-		<div class="item contenedor descripcionViaje" id="viajeNoa">
-			<p class="subItems titulo">Experiencia NOA</p>
-			<div class="subItems parrafo">
+		<div class="container-xl mt-5 pt-3 bg-secondary" id="viajeNoa">
+			<p class="text-center text-wrap fs-1 p-0 p-md-2">Experiencia NOA</p>
+			<div class="text-center text-wrap fs-3 p-0 p-md-2">
 				<p>El noroeste Argentino es un destino rico por su cultura, escenarios con cerros de colores, salinas interminables y los recorridos del Dakar.</p>
 				<p>A lo largo de esta experiencia se recorreran las provincias de Tucuman, Salta, Jujuy y Catamarca.</p> 
 			</div>
 			
-			<div class="subItems img contenedorItemX3">
-				<img class="itemX3" src="Desafio_1_Imagenes/noa_1.jpg">
-				<img class="itemX3" src="Desafio_1_Imagenes/noa_2.jpg">
-				<img class="itemX3" src="Desafio_1_Imagenes/noa_3.jpeg">
+			<div class="row container-xl justify-content-center">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/noa_1.jpg">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/noa_2.jpg">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/noa_3.jpeg">
 			</div> 
 		</div>
 
 
-		<div class="item contenedor descripcionViaje" id="viajeCuyo">
-			<p class="subItems titulo">Experiencia Cuyo</p>
-			<div class="subItems parrafo">
+		<div class="container-xl mt-5 pt-3 bg-secondary" id="viajeCuyo">
+			<p class="text-center text-wrap fs-1 p-0 p-md-2">Experiencia Cuyo</p>
+			<div class="text-center text-wrap fs-3 p-0 p-md-2">
 				<p>La region de Cuyo enamora por sus sierras, arroyos, lagos y la alegria de los lugareños.</p>
 				<p>A lo largo de esta experiencia se recorreran las provincias de Córdoba, San Luis, San Juan y Mendoza.</p> 
 			</div>
-			<div class="subItems img contenedorItemX3">
-				<img class="itemX3" src="Desafio_1_Imagenes/Cuyo_2.jpg">
-				<img class="itemX3" src="Desafio_1_Imagenes/Cuyo_3.jpg">
-				<img class="itemX3" src="Desafio_1_Imagenes/Cuyo_4.jpg">
+			<div class="row container-xl justify-content-center">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/Cuyo_2.jpg">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/Cuyo_3.jpg">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/Cuyo_4.jpg">
 			</div> 
 		</div>
 
 
-		<div class="item contenedor descripcionViaje" id="viajePatagonia">
-			<p class="subItems titulo">Experiencia Patagonia</p>
-			<div class="subItems parrafo">
+		<div class="container-xl mt-5 pt-3 bg-secondary" id="viajePatagonia">
+			<p class="text-center text-wrap fs-1 p-0 p-md-2">Experiencia Patagonia</p>
+			<div class="text-center text-wrap fs-3 p-0 p-md-2">
 				<p>Glaciares, enormes lagos rutas de montania y enormes extenciones forman el escenario de esta experiencia.</p>
 				<p>A lo largo de esta experiencia se recorreran las provincias de Rio Negro, Chubut, Santa Cruz y Tierra del Fuego.</p> 
 			</div>
-			<div class="subItems img contenedorItemX3">
-				<img class="itemX3" src="Desafio_1_Imagenes/Patagonia_1.jpg">
-				<img class="itemX3" src="Desafio_1_Imagenes/Patagonia_2.jpg">
-				<img class="itemX3" src="Desafio_1_Imagenes/Patagonia_3.jpg">
+			<div class="row container-xl justify-content-center">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/Patagonia_1.jpg">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/Patagonia_2.jpg">
+				<img class="container-xl col-12 col-sm-3 bg-light m-3 border border-dark img-fluid" src="Desafio_1_Imagenes/Patagonia_3.jpg">
 			</div> 
 		</div>
 	</div>
+</div>
 
-	<div id="footer">
-		<div class="copy">
+
+	<div class="row container-fluid bg-light mt-3">
+		<div class="col-3">
 			© 2021 Tio Moto
 		</div>
-		<ul>
-			<li class="iconoFooter" id="footer_insta">
-				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img src="Desafio_1_Imagenes/Icono_insta.png"></a></li><!--
-		 --><li class="iconoFooter" id="footer_face">		
-		 		<a href="https://www.facebook.com/T%C3%ADo-Moto-105678948466536" target="_blank"><img src="Desafio_1_Imagenes/Icono_facebook.png"></a></li><!--
-		 --><li class="iconoFooter" id="footer_Whatsaap">	
-		 		<a href="https://www.whatsapp.com" target="_blank"><img src="Desafio_1_Imagenes/Icono_whatsapp.png" width="70" height="50"></a></li>
-		</ul>
+		<div class="col-9 row">
+			<div class="col-4">
+				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img src="Desafio_1_Imagenes/Icono_insta.png"></a></li>
+			</div>
+			<div class="col-4">
+				<a href="https://www.facebook.com/T%C3%ADo-Moto-105678948466536" target="_blank"><img src="Desafio_1_Imagenes/Icono_facebook.png"></a>
+			</div>
+			<div class="col-4">
+				<a href="https://www.whatsapp.com" target="_blank"><img src="Desafio_1_Imagenes/Icono_whatsapp.png" width="70" height="50"></a>
+			</div>
+		</div>
 	</div>
-</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
