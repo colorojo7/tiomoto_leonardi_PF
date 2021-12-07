@@ -5,6 +5,15 @@
 	font-family: 'Mohave', sans-serif;
 }
  
+.titulo{
+	color: #ef280f;
+}
+
+.container1{
+	padding-top: 6rem;
+}
+
+
 
 #banner{
 	height: 100vh;
@@ -39,6 +48,11 @@
 
 	}
 }
+
+.iconoPV{
+	max-width: 60%;
+}
+
 
 .pgContacto iframe{
 	max-height: 300px;
