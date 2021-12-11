@@ -5,25 +5,60 @@
 	font-family: 'Mohave', sans-serif;
 }
  
-.titulo{
-	color: #ef280f;
-}
 
+/*MEDIDAS*/
 .container1{
 	padding-top: 6rem;
 }
 
+.h-3em{
+	height: 3em;
+}
 
+.p-075em{
+	padding: 0.75em
+
+}
+
+
+/*COLORES*/
+
+.titulo-rojo{
+	color: #ef280f;
+}
+.bg-transparentBlack{
+	background-color: rgb(28,28,28,0.9);
+}
+
+.bg-gris{
+	background-color: #ccc;
+}
+
+nav:hover{
+	background-color: rgb(28,28,28,1);
+	color: #ef280f;
+}
+
+.hover-scale-5 {
+	transition-duration: 0.5s;
+}
+
+.hover-scale-5:hover{
+	transform: scale(1.05);
+}
+
+
+/* HOME */
 
 #banner{
 	height: 100vh;
 	width: 100vw;
 	background-image: url(../Desafio_1_Imagenes/Banner_home.jpg);
-	background-position: center;
+	background-position: 0% 100%;
 	background-size: cover;
-	text-align: center;
-	
+	text-align: center;	
 }
+
 
 #banner p{
 	color: #fff;
@@ -33,7 +68,7 @@
 	animation-name:familia;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	animation-duration: 5s;
+	animation-duration: 6s;
 	animation-delay: 0;
 }
 @keyframes familia{
@@ -50,10 +85,22 @@
 }
 
 .iconoPV{
-	max-width: 60%;
+	max-width: 30%;
 }
 
 
 .pgContacto iframe{
 	max-height: 300px;
+}
+
+
+
+/* FAQ */
+
+.bg-odd-lightBlue > div:nth-child(odd){
+	background-color: #99ccff;
+}
+
+.bg-odd-lightBlue > div:nth-child(even){
+	background-color: #66ccff;
 }
