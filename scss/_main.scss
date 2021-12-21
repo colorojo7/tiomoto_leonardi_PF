@@ -1,0 +1,156 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.font-Gwendolyn{
+	font-family: 'Gwendolyn', cursive;
+}
+.font-Roboto{
+	font-family: 'Roboto', sans-serif;
+} 
+
+
+/*MEDIDAS*/
+.container1{
+	padding-top: 6rem;
+}
+
+.h-3em{
+	height: 3em;
+}
+
+.p-075em{
+	padding: 0.75em
+}
+
+/* FOOTER */
+.pg-footer{
+	height: 70px;
+	background-color: $rojo-tm;
+	.icono-group{
+		.icono{
+			img{
+				height: 50px;
+
+			}
+		}
+	}
+}
+
+
+
+/*COLORES*/
+
+.titulo-rojo{
+	color: $rojo-tm;
+}
+.bg-transparentBlack{
+	background-color: rgba(28,28,28,0.8);
+}
+.bg-gris{
+	background-color: $bg-main;
+}
+.navbar{
+	&:hover{
+	background-color: #000;
+	
+	}
+	div{
+		#navbarNav{
+			ul{
+				li{
+					a{
+						&:hover{
+							font-weight: map-get($font-weightMap, bold);
+						}
+						&.active{
+							@include fontSWC(1rem,700,$rojo-tm);
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+/* TRANSFORMACIONES */
+.hover-scale-5 {
+	transition-duration: 0.5s;
+	&:hover{
+		transform: scale(1.05);
+	}
+}
+
+/* HOME */
+
+#banner{
+	height: 100vh;
+	width: 100vw;
+	background-image: url(../Desafio_1_Imagenes/Banner_home-mobile.jpg);
+	background-position: 0% 100%;
+	background-size: cover;
+	text-align: center;	
+	h1{
+		@include fontSWC(3rem,700,#fff);
+		padding-top:20rem;
+		animation-name:familia;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		animation-duration: 6s;
+		animation-delay: 0;
+	}
+}
+
+@media screen and (min-width: map-get($bpMap,md)){
+	#banner{
+	background-image: url(../Desafio_1_Imagenes/Banner_home.jpg);
+	}
+}
+
+@keyframes familia{
+	0%{
+	}
+	50%{
+		font-size: 3.2rem
+	}
+	100%{
+	}
+}
+.iconoPV{
+	max-width: 30%;
+}
+/* VIAJES */
+
+#viajeNoa{
+	margin-top: 5px;
+}
+
+#viajeCuyo{
+	@extend #viajeNoa;
+	margin-bottom: 5px;
+	
+}
+
+/* FAQ */
+
+.bg-odd-lightBlue{
+	> div{
+		&:nth-child(odd){
+			background-color: #99ccff;
+		}
+		&:nth-child(even){
+			background-color: #66ccff;
+		}
+	}
+}
+
+
+/* CONTACTO */
+.pgContacto iframe{
+	max-height: 300px;
+}
+
+
+
+
+

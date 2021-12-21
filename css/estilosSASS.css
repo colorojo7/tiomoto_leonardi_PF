@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+.font-w-light {
+  font-weight: 300; }
+
+.font-w-regular {
+  font-weight: 400; }
+
+.font-w-medium {
+  font-weight: 500; }
+
+.font-w-bold {
+  font-weight: 700; }
+
+.font-w-black {
+  font-weight: 900; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.font-Gwendolyn {
+  font-family: 'Gwendolyn', cursive; }
+
+.font-Roboto {
+  font-family: 'Roboto', sans-serif; }
+
+/*MEDIDAS*/
+.container1 {
+  padding-top: 6rem; }
+
+.h-3em {
+  height: 3em; }
+
+.p-075em {
+  padding: 0.75em; }
+
+/* FOOTER */
+.pg-footer {
+  height: 70px;
+  background-color: #e94848; }
+  .pg-footer .icono-group .icono img {
+    height: 50px; }
+
+/*COLORES*/
+.titulo-rojo {
+  color: #e94848; }
+
+.bg-transparentBlack {
+  background-color: rgba(28, 28, 28, 0.8); }
+
+.bg-gris {
+  background-color: #ccc; }
+
+.navbar:hover {
+  background-color: #000; }
+
+.navbar div #navbarNav ul li a:hover {
+  font-weight: 700; }
+
+.navbar div #navbarNav ul li a.active {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e94848; }
+
+/* TRANSFORMACIONES */
+.hover-scale-5 {
+  transition-duration: 0.5s; }
+  .hover-scale-5:hover {
+    transform: scale(1.05); }
+
+/* HOME */
+#banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../Desafio_1_Imagenes/Banner_home-mobile.jpg);
+  background-position: 0% 100%;
+  background-size: cover;
+  text-align: center; }
+  #banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20rem;
+    animation-name: familia;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    animation-delay: 0; }
+
+@media screen and (min-width: 768px) {
+  #banner {
+    background-image: url(../Desafio_1_Imagenes/Banner_home.jpg); } }
+
+@keyframes familia {
+  0% { }
+  50% {
+    font-size: 3.2rem; }
+  100% { } }
+
+.iconoPV {
+  max-width: 30%; }
+
+/* VIAJES */
+#viajeNoa, #viajeCuyo {
+  margin-top: 5px; }
+
+#viajeCuyo {
+  margin-bottom: 5px; }
+
+/* FAQ */
+.bg-odd-lightBlue > div:nth-child(odd) {
+  background-color: #99ccff; }
+
+.bg-odd-lightBlue > div:nth-child(even) {
+  background-color: #66ccff; }
+
+/* CONTACTO */
+.pgContacto iframe {
+  max-height: 300px; }

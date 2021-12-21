@@ -1,0 +1,11 @@
+@each $k , $v in $font-weightMap{
+	.font-w-#{$k}{
+		font-weight: $v;
+	}
+}
+
+@mixin fontSWC($s:1rem, $w:500, $c:#000){
+	font-size: $s;
+	font-weight:$w;
+	color: $c;
+}
