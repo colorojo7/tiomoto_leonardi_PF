@@ -3,13 +3,14 @@
 <head>
 	<title>Tio Moto - Contacto</title>
 	<meta charset="utf-8">
-	<meta name=viewpoint content="width=device-width, initial-scale=1">
-	<!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="description" content="Envianos un mensaje para viajar en moto con nosotros">
+	<meta name="keywords" content="preguntas, consultas, contacto, moto, viajes, aventura, experiencia, sudamerica, argentina, noa, patagonia, cuyo, cordoba, comunidad, familia">
+
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/estilosSASS.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 
 <!-- FAVICON -->
-
 	<link rel="apple-touch-icon" sizes="180x180" href="Desafio_1_Imagenes/favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="Desafio_1_Imagenes/favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="Desafio_1_Imagenes/favicon_io/favicon-16x16.png">
@@ -17,11 +18,9 @@
 
 </head>
 
-
 <body> 
- 
+ <!-- NAV -->
 	 <div class="container-xl bg-transparent text-white fixed-top">
-		
 			<nav class="navbar navbar-expand-md navbar-dark rounded-bottom bg-transparentBlack navbar-hover">
 			  <div class="container-fluid">
 			    <a class="navbar-brand" href="index.html"><img src="Desafio_1_Imagenes/Icono_logo.jpg" alt="logo" height="50px" width="50px"></a>
@@ -49,60 +48,52 @@
 			    </div>
 			  </div>
 			</nav>
-
 	</div>
 
-
+<!-- CONTACTO contenido -->
 <main class="contenido pg pgContacto">
-
-
 	<section class="container-xl mt-5 pt-5 bg-gris">
 		<div class="d-flex flex-wrap container-xl justify-content-center align-items-center">			
 			<div class="container-xl col-12 col-md-5 m-3 p-0 p-sm-2 text-center fs-4">
 				<div>
-				<p >Escribenos si tienes comentarios o preguntas</p>
-				<p >Tambien puedes revisar nuestra sección de <a href="faq.html">FAQ</a> </p>
+				<p>Escribenos si tienes comentarios o preguntas</p>
+				<p>Tambien puedes revisar nuestra sección de <a href="faq.html">FAQ</a> </p>
 				</div>
 			</div>
 			<form class="row g-3 container-xl col-md-5 m-3 p-0 p-sm-2 text-center fs-3">
 				<div class="col-md-12">
-				    <input type="name" class="form-control" id="inputNombre" placeholder="Nombre">
+				    <input type="name" class="form-control hover-lgblue" id="inputNombre" placeholder="Nombre">
 			  	</div>
 			  	<div class="col-md-12">
-				    <input type="email" class="form-control" id="inputEmail4" placeholder="e-mail">
+				    <input type="email" class="form-control hover-lgblue" id="inputEmail4" placeholder="e-mail">
 			 	 </div>
 			  
 				<div class="col-md-12">
-				    <select id="inputState" class="form-select">
-				      <option selected>Elige una opcion</option>
-				      <option value="viaje"> Quiero preguntar por un viaje </option>
+				    <select id="inputState" class="form-select hover-lgblue">
+				      	<option selected>Elige una opcion</option>
+				      	<option value="viaje"> Quiero preguntar por un viaje </option>
 						<option value="sugerencia"> Quisiera hacerles una sugerencia</option>
 						<option value="otro"> Por otro tema</option>
 				    </select>
 			  	</div>
 			  	<div class="col-md-12">
-			    	<input type="textarea" class="form-control" id="inputMensaje" placeholder="Escribe tu mensaje">
+			    	<input type="textarea" class="form-control hover-lgblue" id="inputMensaje" placeholder="Escribe tu mensaje">
 			 	 </div>
 			 	<div class="col-12">
-			   		<button type="submit" class="btn btn-primary">Enviar</button>
+			   		<button type="submit" class="btn btn-primary w-100">Enviar</button>
 			  	</div>
 			</form>
-			
 		</div>
-
 	</section>
-
-
 
 	<section class="container-xl mt-5 pt-5 bg-gris">
 		<p class="text-center text-wrap fs-4 p-0 p-md-2">Tambien podras vistarnos en Rivadavia 3300,CABA</p>
 		<iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7393104439034!2d-58.41520338464383!3d-34.61075298045773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf417d233fb%3A0x853ae6c3485ef452!2sRivadavia%203300%2C%20C1203AAR%20CABA!5e0!3m2!1ses-419!2sar!4v1636823492240!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		
 	</section>
-
 </main>	
 
+<!--Footer-->
 	<footer class="pg-footer d-flex flex-wrap container-fluid mt-3">
-		
 		<div class="icono-group col-12 col-md-9 d-flex flex-wrap">
 			<div class="icono col-4 d-flex justify-content-center align-items-center">
 				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img class="footer-icono" src="Desafio_1_Imagenes/svg/bxl-instagram-alt.svg" alt="icono_instagram"></a></li>
@@ -119,8 +110,7 @@
 		</div>
 	</footer>
 
-
-
+<!--SCRIPT-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script src="js/wow.js"></script>

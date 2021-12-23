@@ -3,14 +3,14 @@
 <head>
 	<title>Tio Moto - Viajes</title>
 	<meta charset="utf-8">
-	<meta name=viewpoint content="width=device-width, initial-scale=1">
+	<meta name=viewport content="width=device-width, initial-scale=1">
 	<meta name="description" content="Organizamos viajes en moto guiados por sudamerica para viajeros internacionales">
 	<meta name="keywords" content="ofertas, moto, viajes, aventura, experiencia, sudamerica, argentina, noa, patagonia, cuyo, cordoba, comunidad, familia">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/estilosSASS.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 
 <!-- FAVICON -->
 	<link rel="apple-touch-icon" sizes="180x180" href="Desafio_1_Imagenes/favicon_io/apple-touch-icon.png">
@@ -19,13 +19,9 @@
 	<link rel="manifest" href="Desafio_1_Imagenes/favicon_io/site.webmanifest">
 
 </head>
-
-
-<body>
-
-
-  <div class="container-xl bg-transparent text-white fixed-top">
-		
+ <body>  
+<!-- NAV -->
+	<div class="container-xl bg-transparent text-white fixed-top">
 			<nav class="navbar navbar-expand-md navbar-dark rounded-bottom bg-transparentBlack navbar-hover">
 			  <div class="container-fluid">
 			    <a class="navbar-brand" href="index.html"><img src="Desafio_1_Imagenes/Icono_logo.jpg" alt="logo" height="50px" width="50px"></a>
@@ -53,86 +49,79 @@
 			    </div>
 			  </div>
 			</nav>
-
 	</div>
 
-	
-
-
-<main class="contenido pg pgViajes ">
-
-	
-	<header class="container-xl bg-gris container1">
-		<div class="text-center text-wrap fs-2 p-0 p-md-2">
-			<div class="text-center text-wrap fs-3 p-0 p-md-2">
-				<h2>Todos nuestros viajes son guiados, y podras hacerlos con tu propia moto o alquilar una para la ocación.</h2>
-				<p>Ofrecemos 3 destinos en diferentes.</p>
-				<p>Cual te gustaria recorrer primero?  </p>
+<!-- VIAJES contenido -->
+	<main class="contenido pg pgViajes ">	
+		<!-- VIAJES encabezado -->
+		<header class="container-xl bg-gris container1">
+			<div class="text-center text-wrap fs-2 p-1 p-md-2">
+				<div class="text-center text-wrap fs-3 p-0 p-md-2">
+					<h2><p>Todos nuestros viajes son guiados, y podras hacerlos con tu propia moto o alquilar una para la ocación.</p>
+					<p>Ofrecemos 3 destinos en diferentes.</p>
+					<p>Cual te gustaria recorrer primero?  </p>
+					</h2>
+				</div>
+				<div class="d-flex flex-wrap container-fluid justify-content-center align-items-center">
+					
+						<a class="container-xl col-12 col-sm-3 bg-light m-1 m-sm-3 border border-dark text-center rounded hover-scale-5 h-3em p-3 p-sm-1 shadow-lg color-noa" href="#viajeNoa">Experiencia NOA</a> 
+					
+					
+						<a class="container-xl col-12 col-sm-3 bg-light m-1 m-sm-3 border border-dark text-center rounded hover-scale-5 h-3em p-3 p-sm-1 shadow-lg" href="#viajeCuyo">Experiencia Cuyo</a> 
+					
+					
+						<a class="container-xl col-12 col-sm-3 bg-light m-1 m-sm-3 border border-dark text-center  rounded hover-scale-5 h-3em p-3 p-sm-1 shadow-lg" href="#viajePatagonia">Experiencia Patagonia</a> 
+				</div>
 			</div>
-			<div class="d-flex flex-wrap container-fluid justify-content-center align-items-center">
+		</header>
+
+		<!-- VIAJES ofertas -->
+		<section class="contenedor viajes pgViajes">
+			<!-- VIAJES noa -->
+			<article class="container-xl mt-5 pt-3 bg-gris" id="viajeNoa">
+				<h1 class="text-center text-wrap fs-1 p-0 p-md-2 titulo-rojo">Experiencia NOA</h1>
+				<div class="text-center text-wrap fs-3 p-0 p-md-2">
+					<p>El noroeste Argentino es un destino rico por su cultura, escenarios con cerros de colores, salinas interminables y los recorridos del Dakar.</p>
+					<p>A lo largo de esta experiencia se recorreran las provincias de Tucuman, Salta, Jujuy y Catamarca.</p> 
+				</div>
 				
-					<a class="container-xl col-12 col-sm-3 bg-light m-1 m-sm-3 border border-dark text-center rounded hover-scale-5 h-3em p-3 p-sm-1" href="#viajeNoa">Experiencia NOA</a> 
-				
-				
-					<a class="container-xl col-12 col-sm-3 bg-light m-1 m-sm-3 border border-dark text-center rounded hover-scale-5 h-3em p-3 p-sm-1" href="#viajeCuyo">Experiencia Cuyo</a> 
-				
-				
-					<a class="container-xl col-12 col-sm-3 bg-light m-1 m-sm-3 border border-dark text-center  rounded hover-scale-5 h-3em p-3 p-sm-1" href="#viajePatagonia">Experiencia Patagonia</a> 
-			</div>
-		</div>
-	</header>
+				<div class="d-flex flex-wrap container-xl justify-content-evenly">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/noa_1.jpg" alt="Moto en la ruta">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/noa_2.jpg" alt="Cerro los 7 colores">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/noa_3.jpeg" alt="Calles de Purmamarca">
+				</div> 
+			</article>
+			<!-- VIAJES cuyo -->
+			<article class="container-xl mt-3 pt-3 bg-gris" id="viajeCuyo">
+				<h1 class="text-center text-wrap fs-1 p-0 p-md-2 titulo-rojo">Experiencia Cuyo</h1>
+				<div class="text-center text-wrap fs-3 p-0 p-md-2">
+					<p>La region de Cuyo enamora por sus sierras, arroyos, lagos y la alegria de los lugareños.</p>
+					<p>A lo largo de esta experiencia se recorreran las provincias de Córdoba, San Luis, San Juan y Mendoza.</p> 
+				</div>
+				<div class="d-flex flex-wrap container-xl justify-content-evenly">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Cuyo_2.jpg" alt="Valle de la luna">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Cuyo_3.jpg" alt="Rios de cordoba">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Cuyo_4.jpg" alt="Moto y picos nevados">
+				</div> 
+			</article>
+			<!-- VIAJES patagonia -->
+			<article class="container-xl mt-3 pt-3 bg-gris" id="viajePatagonia">
+				<h1 class="text-center text-wrap fs-1 p-0 p-md-2 titulo-rojo">Experiencia Patagonia</h1>
+				<div class="text-center text-wrap fs-3 p-0 p-md-2">
+					<p>Glaciares, enormes lagos rutas de montania y enormes extenciones forman el escenario de esta experiencia.</p>
+					<p>A lo largo de esta experiencia se recorreran las provincias de Rio Negro, Chubut, Santa Cruz y Tierra del Fuego.</p> 
+				</div>
+				<div class="d-flex flex-wrap container-xl justify-content-evenly">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Patagonia_1.jpg" alt="Moto, lagos y montañas de la Patagonia">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Patagonia_2.jpg" alt="Ruta hacia la cordillera">
+					<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Patagonia_3.jpg" alt="Glaciar perito moreno">
+				</div> 
+			</article>
+		</section>
+	</main>
 
-
-
-	<section class="contenedor viajes pgViajes">
-
-		<article class="container-xl mt-5 pt-3 bg-gris" id="viajeNoa">
-			<h1 class="text-center text-wrap fs-1 p-0 p-md-2 titulo-rojo">Experiencia NOA</h1>
-			<div class="text-center text-wrap fs-3 p-0 p-md-2">
-				<p>El noroeste Argentino es un destino rico por su cultura, escenarios con cerros de colores, salinas interminables y los recorridos del Dakar.</p>
-				<p>A lo largo de esta experiencia se recorreran las provincias de Tucuman, Salta, Jujuy y Catamarca.</p> 
-			</div>
-			
-			<div class="d-flex flex-wrap container-xl justify-content-evenly">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/noa_1.jpg" alt="Moto en la ruta">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/noa_2.jpg" alt="Cerro los 7 colores">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/noa_3.jpeg" alt="Calles de Purmamarca">
-			</div> 
-		</article>
- 
-
-		<article class="container-xl mt-3 pt-3 bg-gris" id="viajeCuyo">
-			<h1 class="text-center text-wrap fs-1 p-0 p-md-2 titulo-rojo">Experiencia Cuyo</h1>
-			<div class="text-center text-wrap fs-3 p-0 p-md-2">
-				<p>La region de Cuyo enamora por sus sierras, arroyos, lagos y la alegria de los lugareños.</p>
-				<p>A lo largo de esta experiencia se recorreran las provincias de Córdoba, San Luis, San Juan y Mendoza.</p> 
-			</div>
-			<div class="d-flex flex-wrap container-xl justify-content-evenly">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Cuyo_2.jpg" alt="Valle de la luna">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Cuyo_3.jpg" alt="Rios de cordoba">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Cuyo_4.jpg" alt="Moto y picos nevados">
-			</div> 
-		</article>
-
-
-		<article class="container-xl mt-3 pt-3 bg-gris" id="viajePatagonia">
-			<h1 class="text-center text-wrap fs-1 p-0 p-md-2 titulo-rojo">Experiencia Patagonia</h1>
-			<div class="text-center text-wrap fs-3 p-0 p-md-2">
-				<p>Glaciares, enormes lagos rutas de montania y enormes extenciones forman el escenario de esta experiencia.</p>
-				<p>A lo largo de esta experiencia se recorreran las provincias de Rio Negro, Chubut, Santa Cruz y Tierra del Fuego.</p> 
-			</div>
-			<div class="d-flex flex-wrap container-xl justify-content-evenly">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Patagonia_1.jpg" alt="Moto, lagos y montañas de la Patagonia">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Patagonia_2.jpg" alt="Ruta hacia la cordillera">
-				<img class="col-12 col-sm-3 bg-light m-2 m-md-3 border border-dark img-fluid animate__animated animate__fadeIn wow" src="Desafio_1_Imagenes/Patagonia_3.jpg" alt="Glaciar perito moreno">
-			</div> 
-		</article>
-	</section>
-</main>
-
-
-	<footer class="pg-footer d-flex flex-wrap container-fluid mt-3">
-		
+<!--Footer-->
+	<footer class="pg-footer d-flex flex-wrap container-fluid mt-3">	
 		<div class="icono-group col-12 col-md-9 d-flex flex-wrap">
 			<div class="icono col-4 d-flex justify-content-center align-items-center">
 				<a href="https://www.instagram.com/tiomoto.app/" target="_blank"><img class="footer-icono" src="Desafio_1_Imagenes/svg/bxl-instagram-alt.svg" alt="icono_instagram"></a></li>
@@ -149,9 +138,7 @@
 		</div>
 	</footer>
 
-
-
-
+<!--SCRIPT-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script src="js/wow.js"></script>

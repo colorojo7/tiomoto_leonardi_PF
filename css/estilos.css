@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+/* line 2, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_tools.scss */
+.font-w-light {
+  font-weight: 300; }
+
+/* line 2, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_tools.scss */
+.font-w-regular {
+  font-weight: 400; }
+
+/* line 2, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_tools.scss */
+.font-w-medium {
+  font-weight: 500; }
+
+/* line 2, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_tools.scss */
+.font-w-bold {
+  font-weight: 700; }
+
+/* line 2, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_tools.scss */
+.font-w-black {
+  font-weight: 900; }
+
+/* line 1, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+* {
+  font-family: 'Roboto', sans-serif; }
+
+/* line 5, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.font-Gwendolyn {
+  font-family: 'Gwendolyn', cursive; }
+
+/* line 8, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.font-Roboto {
+  font-family: 'Roboto', sans-serif; }
+
+/*MEDIDAS*/
+/* line 14, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.container1 {
+  padding-top: 6rem; }
+
+/* line 18, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.h-3em {
+  height: 3em; }
+
+/* line 22, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.p-075em {
+  padding: 0.75em; }
+
+/* FOOTER */
+/* line 27, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pg-footer {
+  height: 70px;
+  background-color: #d64343; }
+  /* line 32, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  .pg-footer .icono-group .icono img {
+    height: 50px; }
+
+/*COLORES*/
+/* line 44, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.titulo-rojo {
+  color: #d64343; }
+
+/* line 47, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.bg-transparentBlack {
+  background-color: rgba(28, 28, 28, 0.8); }
+
+/* line 50, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.bg-gris {
+  background-color: #eee; }
+
+/* line 54, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.navbar:hover {
+  background-color: #000; }
+
+/* line 63, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.navbar div #navbarNav ul li a:hover {
+  font-weight: 700; }
+
+/* line 66, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.navbar div #navbarNav ul li a.active {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #d64343; }
+
+/* TRANSFORMACIONES */
+/* line 78, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.hover-scale-5 {
+  transition-duration: 0.5s; }
+  /* line 80, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  .hover-scale-5:hover {
+    transform: scale(1.05); }
+
+/* HOME */
+/* line 87, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+#banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../Desafio_1_Imagenes/Banner_home-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  /* line 94, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  #banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20rem;
+    animation-name: familia;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 6s;
+    animation-delay: 0; }
+
+@media screen and (min-width: 768px) {
+  /* line 106, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  #banner {
+    background-image: url(../Desafio_1_Imagenes/atardecerMontana.jpg); } }
+
+@keyframes familia {
+  0% { }
+  50% {
+    font-size: 3.2rem; }
+  100% { } }
+
+/* line 120, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.iconoPV {
+  max-width: 30%; }
+
+/* line 123, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.bg-noa, .pgViajes #viajeNoa {
+  background-color: #FCAC81; }
+
+/* line 126, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.bg-cuyo, .pgViajes #viajeCuyo {
+  background-color: #B4CBA7; }
+
+/* line 129, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.bg-patagonia, .pgViajes #viajePatagonia {
+  background-color: #A7B8CB; }
+
+/* VIAJES */
+/* line 135, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgViajes #viajeNoa {
+  color: #643600; }
+
+/* line 140, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgViajes #viajeCuyo {
+  color: #1F4F00; }
+
+/* line 144, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgViajes #viajePatagonia {
+  color: #002F5B; }
+
+/* FAQ */
+/* line 154, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgFaq .preguntas .pregunta {
+  background-color: #def; }
+
+/* line 157, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgFaq .preguntas .respuesta {
+  background-color: #9EF2FF; }
+
+/* CONTACTO */
+/* line 166, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgContacto button:hover {
+  background-color: #d64343; }
+
+/* line 169, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.pgContacto iframe {
+  max-height: 300px; }
+
+/* line 173, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.hover-lgblue:hover {
+  background-color: #def; }
+
+/*# sourceMappingURL=estilos.css.map */

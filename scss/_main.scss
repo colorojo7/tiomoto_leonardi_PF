@@ -1,5 +1,6 @@
 *{
 	font-family: 'Roboto', sans-serif;
+
 }
 .font-Gwendolyn{
 	font-family: 'Gwendolyn', cursive;
@@ -7,7 +8,7 @@
 .font-Roboto{
 	font-family: 'Roboto', sans-serif;
 } 
-
+ 
 
 /*MEDIDAS*/
 .container1{
@@ -87,7 +88,7 @@
 	height: 100vh;
 	width: 100vw;
 	background-image: url(../Desafio_1_Imagenes/Banner_home-mobile.jpg);
-	background-position: 0% 100%;
+	background-position: center;
 	background-size: cover;
 	text-align: center;	
 	h1{
@@ -103,7 +104,7 @@
 
 @media screen and (min-width: map-get($bpMap,md)){
 	#banner{
-	background-image: url(../Desafio_1_Imagenes/Banner_home.jpg);
+	background-image: url(../Desafio_1_Imagenes/atardecerMontana.jpg);
 	}
 }
 
@@ -119,38 +120,56 @@
 .iconoPV{
 	max-width: 30%;
 }
-/* VIAJES */
-
-#viajeNoa{
-	margin-top: 5px;
+.bg-noa{
+	background-color:$color-noa;
+}
+.bg-cuyo{
+	background-color:$color-cuyo;
+}
+.bg-patagonia{
+	background-color:$color-patagonia;
 }
 
-#viajeCuyo{
-	@extend #viajeNoa;
-	margin-bottom: 5px;
+/* VIAJES */
+.pgViajes{
+	#viajeNoa{
+		@extend .bg-noa;
+		color: #643600;
+		
+	}
+	#viajeCuyo{
+		@extend .bg-cuyo;
+		color: #1F4F00;	
+	}
+	#viajePatagonia{
+		@extend .bg-patagonia;
+		color: #002F5B;	
+	}
+
+}
+/* FAQ */
+
+.pgFaq{
+	.preguntas{
+		.pregunta{
+			background-color: $lg-blue;
+		}			
+		.respuesta{
+			background-color: #9EF2FF;
+		}
+	}
 	
 }
 
-/* FAQ */
-
-.bg-odd-lightBlue{
-	> div{
-		&:nth-child(odd){
-			background-color: #99ccff;
-		}
-		&:nth-child(even){
-			background-color: #66ccff;
-		}
-	}
-}
-
-
 /* CONTACTO */
-.pgContacto iframe{
+.pgContacto{
+	button:hover{
+		background-color:$rojo-tm;
+	}
+	iframe{
 	max-height: 300px;
+	}
+} 	
+.hover-lgblue:hover{
+	background-color: $lg-blue;
 }
-
-
-
-
-
