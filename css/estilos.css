@@ -153,21 +153,29 @@
 /* line 154, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgFaq .preguntas .pregunta {
   background-color: #def; }
+  /* line 156, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  .pgFaq .preguntas .pregunta:hover {
+    background-color: #C4D5E5; }
 
-/* line 157, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 160, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgFaq .preguntas .respuesta {
-  background-color: #9EF2FF; }
+  background-color: #C4D5E5; }
+
+/* line 166, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .0rem; }
 
 /* CONTACTO */
-/* line 166, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 173, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgContacto button:hover {
   background-color: #d64343; }
 
-/* line 169, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 176, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgContacto iframe {
   max-height: 300px; }
 
-/* line 173, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 180, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .hover-lgblue:hover {
   background-color: #def; }
 

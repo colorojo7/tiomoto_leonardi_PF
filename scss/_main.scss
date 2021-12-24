@@ -153,12 +153,19 @@
 	.preguntas{
 		.pregunta{
 			background-color: $lg-blue;
+			&:hover{
+				background-color:#C4D5E5;
+			}
 		}			
 		.respuesta{
-			background-color: #9EF2FF;
+			background-color: #C4D5E5;
 		}
 	}
 	
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .0rem;
 }
 
 /* CONTACTO */
