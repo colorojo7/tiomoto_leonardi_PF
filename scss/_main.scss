@@ -37,19 +37,10 @@
 	}
 }
 
-
-
-/*COLORES*/
-
 .titulo-rojo{
 	color: $rojo-tm;
 }
-.bg-transparentBlack{
-	background-color: rgba(28,28,28,0.8);
-}
-.bg-gris{
-	background-color: $bg-main;
-}
+
 .navbar{
 	&:hover{
 	background-color: #000;
@@ -78,7 +69,7 @@
 .hover-scale-5 {
 	transition-duration: 0.5s;
 	&:hover{
-		transform: scale(1.05);
+		transform: scale(1.03);
 	}
 }
 
@@ -87,12 +78,12 @@
 #banner{
 	height: 100vh;
 	width: 100vw;
-	background-image: url(../Desafio_1_Imagenes/Banner_home-mobile.jpg);
+	background-image: url(../Desafio_1_Imagenes/atardecerMontana-770.jpg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;	
 	h1{
-		@include fontSWC(3rem,700,#fff);
+		@include fontSWC(2.5rem,700,#fff);
 		padding-top:20rem;
 		animation-name:familia;
 		animation-iteration-count: infinite;
@@ -112,7 +103,7 @@
 	0%{
 	}
 	50%{
-		font-size: 3.2rem
+		font-size: 2.7rem
 	}
 	100%{
 	}
@@ -120,15 +111,7 @@
 .iconoPV{
 	max-width: 30%;
 }
-.bg-noa{
-	background-color:$color-noa;
-}
-.bg-cuyo{
-	background-color:$color-cuyo;
-}
-.bg-patagonia{
-	background-color:$color-patagonia;
-}
+
 
 /* VIAJES */
 .pgViajes{
@@ -163,20 +146,22 @@
 	}
 	
 }
-.btn:focus {
-    outline: 0;
-    box-shadow: 0 0 0 .0rem;
-}
+
 
 /* CONTACTO */
 .pgContacto{
-	button:hover{
-		background-color:$rojo-tm;
-	}
+	.btn{
+	border-radius: 30px;
+		&:hover{
+			background-color:$rojo-tm;
+		}
 	iframe{
 	max-height: 300px;
+	}
 	}
 } 	
 .hover-lgblue:hover{
 	background-color: $lg-blue;
 }
+
+

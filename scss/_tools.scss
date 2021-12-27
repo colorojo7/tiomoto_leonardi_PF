@@ -3,6 +3,11 @@
 		font-weight: $v;
 	}
 }
+@each $k , $v in $bg-colorMap{
+	.bg-#{$k}{
+		background-color: $v;
+	}
+}
 
 @mixin fontSWC($s:1rem, $w:500, $c:#000){
 	font-size: $s;

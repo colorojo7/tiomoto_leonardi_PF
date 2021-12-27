@@ -6,6 +6,16 @@ $color-noa:#FCAC81;
 $color-cuyo:#B4CBA7;
 $color-patagonia:#A7B8CB;
 
+$bg-colorMap:(
+	main:#eee, 
+	rojo-tm:#d64343,
+	blue-tm:#38454c,
+	lg-blue:#def,
+	noa:#FCAC81,
+	cuyo:#B4CBA7,
+	patagonia:#A7B8CB,
+	transparentBlack:rgba(28,28,28,0.8)
+	);
 
 
 $font-weightMap:(
@@ -21,5 +31,5 @@ $bpMap:(
 	md:768px,
 	lg:992px,
 	xl:1200px,
-	xxl:1400px,
+	xxl:1400px
 	);
