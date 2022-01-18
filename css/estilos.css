@@ -51,68 +51,72 @@
 .bg-transparentBlack {
   background-color: rgba(28, 28, 28, 0.8); }
 
+/* line 7, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_tools.scss */
+.bg-transparentWhite {
+  background-color: rgba(255, 255, 255, 0.5); }
+
 /* line 1, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 * {
   font-family: 'Roboto', sans-serif; }
 
-/* line 5, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 4, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .font-Gwendolyn {
   font-family: 'Gwendolyn', cursive; }
 
-/* line 8, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 7, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .font-Roboto {
   font-family: 'Roboto', sans-serif; }
 
 /*MEDIDAS*/
-/* line 14, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 12, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .container1 {
   padding-top: 6rem; }
 
-/* line 18, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 16, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .h-3em {
   height: 3em; }
 
-/* line 22, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 20, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .p-075em {
   padding: 0.75em; }
 
 /* FOOTER */
-/* line 27, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 25, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pg-footer {
   height: 70px;
   background-color: #d64343; }
-  /* line 32, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 30, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   .pg-footer .icono-group .icono img {
     height: 50px; }
 
-/* line 40, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 37, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .titulo-rojo {
   color: #d64343; }
 
-/* line 45, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 42, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .navbar:hover {
   background-color: #000; }
 
-/* line 54, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 50, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .navbar div #navbarNav ul li a:hover {
   font-weight: 700; }
 
-/* line 57, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 53, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .navbar div #navbarNav ul li a.active {
   font-size: 1rem;
   font-weight: 700;
   color: #d64343; }
 
 /* TRANSFORMACIONES */
-/* line 69, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 64, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .hover-scale-5 {
   transition-duration: 0.5s; }
-  /* line 71, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 66, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   .hover-scale-5:hover {
     transform: scale(1.03); }
 
 /* HOME */
-/* line 78, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 71, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 #banner {
   height: 100vh;
   width: 100vw;
@@ -120,7 +124,7 @@
   background-position: center;
   background-size: cover;
   text-align: center; }
-  /* line 85, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 78, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   #banner h1 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -133,7 +137,7 @@
     animation-delay: 0; }
 
 @media screen and (min-width: 768px) {
-  /* line 97, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 89, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   #banner {
     background-image: url(../Desafio_1_Imagenes/atardecerMontana.jpg); } }
 
@@ -143,47 +147,54 @@
     font-size: 2.7rem; }
   100% { } }
 
-/* line 111, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 102, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .iconoPV {
-  max-width: 30%; }
+  max-width: 100px; }
 
 /* VIAJES */
-/* line 118, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 108, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgViajes #viajeNoa {
   color: #643600; }
 
-/* line 123, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 112, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgViajes #viajeCuyo {
   color: #1F4F00; }
 
-/* line 127, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 116, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgViajes #viajePatagonia {
   color: #002F5B; }
 
+/* NOSOTROS */
+/* line 123, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+.bg-map {
+  background-image: url(../Desafio_1_Imagenes/bg-map.jpg);
+  background-position: center;
+  background-size: cover; }
+
 /* FAQ */
-/* line 137, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 131, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgFaq .preguntas .pregunta {
   background-color: #def; }
-  /* line 139, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 133, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   .pgFaq .preguntas .pregunta:hover {
     background-color: #C4D5E5; }
 
-/* line 143, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 137, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgFaq .preguntas .respuesta {
   background-color: #C4D5E5; }
 
 /* CONTACTO */
-/* line 153, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 146, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .pgContacto .btn {
   border-radius: 30px; }
-  /* line 155, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 148, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   .pgContacto .btn:hover {
     background-color: #d64343; }
-  /* line 158, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+  /* line 151, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
   .pgContacto .btn iframe {
     max-height: 300px; }
 
-/* line 163, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
+/* line 156, ../../../../../../../../../../../../../Users/mauroleonardi/Desktop/CODER/DesarrolloWEB/0-Desafios/tiomoto_leonardi_PF/scss/_main.scss */
 .hover-lgblue:hover {
   background-color: #def; }
 
